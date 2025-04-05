@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "Remind me to fil this in",
+  "copyright": "Remind me to fill this in",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "med-hud-module"
+    }
+  ]
+}

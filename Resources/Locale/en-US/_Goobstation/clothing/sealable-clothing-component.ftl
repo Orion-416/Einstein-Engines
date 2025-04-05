@@ -21,3 +21,8 @@ sealable-clothing-sealed-toggle-fail = Deactivate the suit first!
 sealable-clothing-not-powered = Suit is not powered!
 sealable-clothing-open-sealed-panel-fail = Wiring panel is too tightly sealed!
 sealable-clothing-close-panel-first = Close the wiring panel first!
+
+sealable-clothing-module-name-one = Module 1
+sealable-clothing-module-name-two = Module 2
+sealable-clothing-module-name-three = Module 3
+sealable-clothing-module-name-four = Module 4

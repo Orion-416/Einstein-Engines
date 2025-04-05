@@ -29,6 +29,10 @@
         ents: []
       toggleable-clothing: !type:Container
       cell_slot: !type:ContainerSlot
+      module_slot_1: !type:ContainerSlot
+      module_slot_2: !type:ContainerSlot
+      module_slot_3: !type:ContainerSlot
+      module_slot_4: !type:ContainerSlot
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
@@ -56,9 +60,33 @@
         whitelist:
           components:
             - PowerCell
+      module_slot_1:
+        name: sealable-clothing-module-name-one
+        whitelist:
+          tags:
+            - ModsuitModuleGeneric
+      module_slot_2:
+        name: sealable-clothing-module-name-two
+        whitelist:
+          tags:
+            - ModsuitModuleGeneric
+      module_slot_3:
+        name: sealable-clothing-module-name-three
+        whitelist:
+          tags:
+            - ModsuitModuleGeneric
+      module_slot_4:
+        name: sealable-clothing-module-name-four
+        whitelist:
+          tags:
+            - ModsuitModuleGeneric
   - type: ItemSlotsRequirePanel
     slots:
       cell_slot: true
+      module_slot_1: true
+      module_slot_2: true
+      module_slot_3: true
+      module_slot_4: true
   - type: PowerCellDraw
     drawRate: 1 # Sealed draw rate
   - type: PowerCellSlot

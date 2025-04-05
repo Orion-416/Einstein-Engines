@@ -1,0 +1,36 @@
+- type: entity
+  id: BaseModsuitModule
+  parent: BaseItem
+  name: modsuit module
+  description: A piece of tech that gives modsuits new abilities.
+  abstract: true
+  components:
+  - type: Item
+    storedRotation: -90
+  - type: Sprite
+    sprite: _EE/Objects/Specific/Robotics/modsuit-modules.rsi
+  - type: Icon
+    sprite: _EE/Objects/Specific/Robotics/modsuit-modules.rsi
+  - type: StaticPrice
+    price: 100
+  - type: Tag
+    tags:
+    - ModsuitModuleGeneric
+
+- type: entity
+  id: ModsuitModuleMedhud
+  parent: BaseModsuitModule
+  name: medhud modsuit module
+  components:
+  - type: Sprite
+    state: med-hud-module
+  - type: Icon
+    state: med-hud-module
+
+#So medhud needs to ad this to the modsuit for it to show huds i think
+#- type: ShowHealthBars
+#    damageContainers:
+#    - Biological
+#  - type: ShowHealthIcons
+#    damageContainers:
+#    - Biological
