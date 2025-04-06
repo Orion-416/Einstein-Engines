@@ -87,6 +87,11 @@
       module_slot_2: true
       module_slot_3: true
       module_slot_4: true
+  - type: ModsuitModulesSlot
+    ModuleSlot1Id: module_slot_1
+    ModuleSlot2Id: module_slot_2
+    ModuleSlot3Id: module_slot_3
+    ModuleSlot4Id: module_slot_4
   - type: PowerCellDraw
     drawRate: 1 # Sealed draw rate
   - type: PowerCellSlot

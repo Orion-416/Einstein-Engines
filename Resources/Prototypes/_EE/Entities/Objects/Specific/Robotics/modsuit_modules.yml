@@ -16,6 +16,7 @@
   - type: Tag
     tags:
     - ModsuitModuleGeneric
+  - type: ModsuitModule
 
 - type: entity
   id: ModsuitModuleMedhud
@@ -26,7 +27,15 @@
     state: med-hud-module
   - type: Icon
     state: med-hud-module
-
+  - type: ModsuitModule
+    OnAdd:
+    - type: ShowHealthBars
+      damageContainers:
+      - Biological
+    - type: ShowHealthIcons
+      damageContainers:
+      - Biological
+    CanEnable: true
 #So medhud needs to ad this to the modsuit for it to show huds i think
 #- type: ShowHealthBars
 #    damageContainers:
