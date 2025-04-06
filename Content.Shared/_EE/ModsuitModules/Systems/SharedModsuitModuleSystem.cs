@@ -85,7 +85,7 @@ public abstract class SharedModsuitModuleSystem : EntitySystem
             return;
 
         RaiseLocalEvent(uid, new ModsuitModulesChangedEvent(false), false);
-        AddComponents(uid, args.components.ModsuitModuleComponent.OnAdd);
+        AddComponents(uid, args.Entity.Components.ModsuitModuleComponent.OnAdd);
     }
 
     protected virtual void OnModuleRemoved(EntityUid uid, ModsuitModulesSlotComponent component, EntRemovedFromContainerMessage args)
@@ -99,7 +99,7 @@ public abstract class SharedModsuitModuleSystem : EntitySystem
         if (args.Container.ID != component.ModuleSlot4Id)
             return;
         RaiseLocalEvent(uid, new ModsuitModulesChangedEvent(true), false);
-        RemoveComponents(uid, args.components.ModsuitModuleComponent.OnAdd);
+        RemoveComponents(uid, args.Entity.Components.ModsuitModuleComponent.OnAdd);
     }
     //
     /// <summary>

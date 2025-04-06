@@ -36,7 +36,7 @@
       damageContainers:
       - Biological
     CanEnable: true
-#So medhud needs to ad this to the modsuit for it to show huds i think
+#So medhud needs to add this to the modsuit for it to show huds i think
 #- type: ShowHealthBars
 #    damageContainers:
 #    - Biological
