@@ -104,6 +104,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBackpackFirefighterTank # Assmos - Firefighter nozzle
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -126,6 +127,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBackpackFirefighterTank # Assmos - Firefighter nozzle
 
 - type: entity
   id: LockerEngineerFilledHardsuit
