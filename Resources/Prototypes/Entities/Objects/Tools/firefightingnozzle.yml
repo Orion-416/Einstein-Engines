@@ -43,7 +43,6 @@
       - NozzleBackTank
       - AtmosBackTank
 
-  - type: PacifismAllowedGun
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto
@@ -62,7 +61,7 @@
       - AtmosBackTank
 
 - type: entity
-  parent: [ BaseCivilianContraband, SmokeGrenade ]
+  parent: [ SmokeGrenade ]
   categories: [ HideSpawnMenu ]
   id: AtmosResin
   name: atmos resin

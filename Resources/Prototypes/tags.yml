@@ -881,6 +881,9 @@
   id: FireAxe
 
 - type: Tag
+  id: FireExtinguisher
+
+- type: Tag
   id: Flesh
 
 - type: Tag
